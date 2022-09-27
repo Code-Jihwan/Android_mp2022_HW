@@ -13,4 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "mp2022_mac"
-include ':app'
+include ':mp_practice_2'
+include ':mp_practice_1'
