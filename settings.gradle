@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "mp2022_mac"
 include ':mp_practice_2'
 include ':mp_practice_1'
+include ':mp_practice_3'
