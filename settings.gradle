@@ -16,3 +16,6 @@ rootProject.name = "mp2022_mac"
 include ':mp_practice_2'
 include ':mp_practice_1'
 include ':mp_practice_3'
+include ':mp_practice_4'
+include ':mp_practice_5'
+include ':mp_practice_6'
