@@ -27,10 +27,10 @@ public class MainActivity2 extends Activity implements CompoundButton.OnCheckedC
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
         String s = "";
-        for (int i=0; i<3; i++)
-            if (tbs[i].isChecked())
-                s += i + 1;
-        int t1 = Integer.parseInt(s,2);
-        Toast.makeText(MainActivity2.this, t1, Toast.LENGTH_LONG).show();
+        for (ToggleButton tg : tbs)
+            s += tg.isChecked()? "1" : "0";       // 조건식? 반환값1 : 반환값2
+        int t1 = Integer.parseInt(s,2);     // s 값을 이진수 -> 10진수 변환
+        String t2 = Integer.toString(t1);         // 정수값 t1을 문자열로 바꿈.
+        Toast.makeText(MainActivity2.this, t2, Toast.LENGTH_LONG).show();
     }
 }
