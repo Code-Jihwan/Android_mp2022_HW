@@ -11,11 +11,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/mp_practice_1" />
+            <option value="$PROJECT_DIR$/mp_practice_14" />
+            <option value="$PROJECT_DIR$/mp_practice_15" />
             <option value="$PROJECT_DIR$/mp_practice_2" />
+            <option value="$PROJECT_DIR$/mp_practice_21" />
             <option value="$PROJECT_DIR$/mp_practice_3" />
             <option value="$PROJECT_DIR$/mp_practice_4" />
             <option value="$PROJECT_DIR$/mp_practice_5" />
             <option value="$PROJECT_DIR$/mp_practice_6" />
+            <option value="$PROJECT_DIR$/mp_practice_8" />
           </set>
         </option>
       </GradleProjectSettings>

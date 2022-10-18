@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <Button
+            android:text="Button 0"
+            android:textAllCaps="false" />
+        <Button
+            android:text="Button 1"
+            android:textAllCaps="false" />
+        <Button
+            android:text="Button 2"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="Button 3"
+            android:textAllCaps="false" />
+        <Button
+            android:text="Button 4"
+            android:textAllCaps="false" />
+        <Button
+            android:text="Button 5"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="Button 6"
+            android:textAllCaps="false" />
+        <Button
+            android:text="Button 7"
+            android:layout_column="2"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="Button 8"
+            android:textAllCaps="false" />
+        <Button
+            android:text="Button 9"
+            android:layout_span="2"
+            android:textAllCaps="false" />
+    </TableRow>
+
+    <TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:stretchColumns="2">
+
+            <TableRow>
+                <Button
+                    android:text="Button A"
+                    android:textAllCaps="false" />
+                <Button
+                    android:text="Button B"
+                    android:layout_column="2"
+                    android:textAllCaps="false" />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:text="Button D"
+                    android:textAllCaps="false" />
+                <Button
+                    android:text="Button E"
+                    android:layout_column="2"
+                    android:textAllCaps="false" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:text="Button C"
+            android:layout_height="match_parent"
+            />
+
+    </TableRow>
+
+</TableLayout>
