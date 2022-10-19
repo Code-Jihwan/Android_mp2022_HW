@@ -18,6 +18,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn1"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -27,6 +28,7 @@
                 android:text="1"/>
 
             <Button
+                android:id="@+id/btn2"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -37,6 +39,7 @@
                 android:text="2"/>
 
             <Button
+                android:id="@+id/btn3"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -54,6 +57,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn4"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -63,6 +67,7 @@
                 android:text="4"/>
 
             <Button
+                android:id="@+id/btn5"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -73,6 +78,7 @@
                 android:text="5"/>
 
             <Button
+                android:id="@+id/btn6"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -90,6 +96,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn7"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -99,6 +106,7 @@
                 android:text="7"/>
 
             <Button
+                android:id="@+id/btn8"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -109,6 +117,7 @@
                 android:text="8"/>
 
             <Button
+                android:id="@+id/btn9"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -126,6 +135,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn10"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -135,6 +145,7 @@
                 android:text="*"/>
 
             <Button
+                android:id="@+id/btn11"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"
@@ -145,6 +156,7 @@
                 android:text="0"/>
 
             <Button
+                android:id="@+id/btn12"
                 android:backgroundTint="#ffff00"
                 android:textSize="50sp"
                 android:textColor="#000"

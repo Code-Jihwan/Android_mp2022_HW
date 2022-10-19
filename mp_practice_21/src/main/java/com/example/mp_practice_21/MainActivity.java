@@ -7,7 +7,6 @@ import android.widget.Button;
 import android.widget.Toast;
 import java.util.Random;
 
-//p.107     연습문제 21번
 public class MainActivity extends Activity implements View.OnClickListener{
     private Random rand = new Random();
     private Button[] btns;
@@ -32,10 +31,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 setColors();
             }
         });
-        setColors();    //try 버튼 누르기 전에 미리 색 나오도록.
+        setColors();    // try 버튼 누르기 전에 미리 색이 한 번 나오도록.
 
         for (Button b : btns)
-            b.setOnClickListener(this); //btns의 모든 버튼에 수신자를 달기
+            b.setOnClickListener(this); // btns의 모든 버튼에 수신자를 달기
     }
 
     private void setColors() {
