@@ -10,7 +10,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/mp_pracrice_27" />
             <option value="$PROJECT_DIR$/mp_practice_1" />
             <option value="$PROJECT_DIR$/mp_practice_14" />
             <option value="$PROJECT_DIR$/mp_practice_15" />
@@ -21,6 +20,7 @@
             <option value="$PROJECT_DIR$/mp_practice_22" />
             <option value="$PROJECT_DIR$/mp_practice_23" />
             <option value="$PROJECT_DIR$/mp_practice_25_a" />
+            <option value="$PROJECT_DIR$/mp_practice_27" />
             <option value="$PROJECT_DIR$/mp_practice_3" />
             <option value="$PROJECT_DIR$/mp_practice_4" />
             <option value="$PROJECT_DIR$/mp_practice_5" />
